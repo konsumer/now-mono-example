@@ -1,3 +1,5 @@
+// use this (with npm run local) top test local app
+
 const importESM = require('esm')(module)
 const app = importESM('./index.js').default
 
