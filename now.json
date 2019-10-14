@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "name": "now-mono-demo",
+  "builds": [
+    { "src": "graphql/src/index.js", "use": "@now/node"},
+    { "src": "front/next.config.js", "use": "@now/next"}
+  ],
+  "routes": [
+    { "src": "/graphql", "dest": "/graphql/src/index.js" },
+    { "src": "/(.*)", "dest": "/front/$1" }
+  ]
+}

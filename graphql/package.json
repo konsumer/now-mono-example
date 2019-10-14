@@ -1,0 +1,16 @@
+{
+  "name": "@now-mono-example/graphql",
+  "version": "0.0.0",
+  "private": true,
+  "dependencies": {
+    "apollo-server-express": "^2.9.6",
+    "express": "^4.17.1",
+    "graphql-tools": "^4.0.5"
+  },
+  "devDependencies": {
+    "esm": "^3.2.25"
+  },
+  "scripts": {
+    "local": "node src/local"
+  }
+}

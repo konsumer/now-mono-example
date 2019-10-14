@@ -1,0 +1,11 @@
+{
+  "name": "now-mono-example",
+  "version": "0.0.0",
+  "scripts": {
+    "start": "now dev",
+    "deploy": "now"
+  },
+  "devDependencies": {
+    "now": "^16.3.1"
+  }
+}
